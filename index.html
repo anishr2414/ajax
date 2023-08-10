@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyIMDb - The Internet Movie Database</title>
+    <!-- Add your CSS stylesheets and external links here -->
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MyIMDb - The Internet Movie Database</h1>
+            <input id="search-text" style="height: 2.2em; border-radius: 10px;" placeholder="search..." type="text" />
+            <!-- <i id="search-btn" style="font-size: 2em;" class="fa-solid fa-magnifying-glass"></i> -->
+            <button id="search-btn">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <section>
+            <h2>Top Rated Movies</h2>
+            <ul id="movies">
+                <li>
+                    <a href="#">Movie Title 1</a> (Year)
+                </li>
+                <li>
+                    <a href="#">Movie Title 2</a> (Year)
+                </li>
+                <!-- Add more movie items here -->
+            </ul>
+        </section>
+
+        <!-- <section>
+            <h2>Top Rated TV Shows</h2>
+            <ul>
+                <li>
+                    <a href="#">TV Show Title 1</a> (Year - Year)
+                </li>
+                <li>
+                    <a href="#">TV Show Title 2</a> (Year - Year)
+                </li> -->
+                <!-- Add more TV show items here -->
+            <!-- </ul>
+        </section> -->
+
+        <!-- <section>
+            <h2>Movie Details</h2>
+            <h3>Movie Title</h3>
+            <p>Release Year: Year</p>
+            <p>Genre: Action, Drama</p>
+            <p>Director: Director Name</p>
+            <p>Cast: Actor 1, Actor 2, Actor 3</p>
+            <p>Plot Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </section> -->
+        <h2>Top 10 Movie Details</h2>
+        <div id="moviesDetail"></div>
+
+        <!-- <section>
+            <h2>TV Show Details</h2>
+            <h3>TV Show Title</h3>
+            <p>Release Year: Year - Year</p>
+            <p>Genre: Drama, Mystery</p>
+            <p>Creators: Creator 1, Creator 2</p>
+            <p>Cast: Actor 1, Actor 2, Actor 3</p>
+            <p>Plot Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </section> -->
+    </main>
+
+    <footer>
+        <!-- Add your footer content here -->
+        <p>&copy; 2023 MyIMDb. All rights reserved.</p>
+    </footer>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
